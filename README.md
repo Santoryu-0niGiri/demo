@@ -1,6 +1,6 @@
 # Git Branching and Feature Flag Demo
 
-edited
+edited short explanation
 
 This project demonstrates Git branching strategies, Pull Requests, code reviews, review feedback, merging, branch deletion, Trunk-Based Development concepts, and feature flags.
 
