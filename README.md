@@ -1,5 +1,7 @@
 # Git Branching and Feature Flag Demo
 
+edited short explanation
+
 This project demonstrates Git branching strategies, Pull Requests, code reviews, review feedback, merging, branch deletion, Trunk-Based Development concepts, and feature flags.
 
 This README provides the complete workflow for the assignment, including the **commands to run, actions to perform, and screenshots to capture**.
@@ -732,9 +734,7 @@ The application reads the feature flag from `config.json`.
 ```javascript
 const fs = require("fs");
 
-const config = JSON.parse(
-  fs.readFileSync("./config.json", "utf8")
-);
+const config = JSON.parse(fs.readFileSync("./config.json", "utf8"));
 
 console.log("Application started.");
 
@@ -983,31 +983,31 @@ Run:
 
 The following screenshots should be included in the final Word document:
 
-| # | Screenshot | What It Proves |
-|---|---|---|
-| 1 | Git and Node versions | Development environment |
-| 2 | Initial Git status/history | Repository initialization |
-| 3 | GitHub/GitLab repository | Remote repository |
-| 4 | `feature/new-feature` branch | Feature branch creation |
-| 5 | README diff | Feature modification |
-| 6 | Feature commit | Commit creation |
-| 7 | Feature branch push | Remote branch |
-| 8 | Pull Request | PR creation |
-| 9 | Reviewer comment | Code review |
-| 10 | Updated README/diff | Review feedback applied |
-| 11 | Review-feedback commit | Corrective commit |
-| 12 | Updated PR | PR updated |
-| 13 | Merged PR | PR successfully merged |
-| 14 | Branch deletion | Feature branch cleanup |
-| 15 | Main history | Feature integrated into main |
-| 16 | `release/v1.0` | Release branch |
-| 17 | Release commit | README release update |
-| 18 | Feature flag commit | Feature flag implementation |
-| 19 | Feature enabled | Flag = true |
-| 20 | Feature disabled | Flag = false |
-| 21 | Final enabled state | Final configuration |
-| 22 | Release branch push | Remote release branch |
-| 23 | Final Git state | Complete workflow |
+| #   | Screenshot                   | What It Proves               |
+| --- | ---------------------------- | ---------------------------- |
+| 1   | Git and Node versions        | Development environment      |
+| 2   | Initial Git status/history   | Repository initialization    |
+| 3   | GitHub/GitLab repository     | Remote repository            |
+| 4   | `feature/new-feature` branch | Feature branch creation      |
+| 5   | README diff                  | Feature modification         |
+| 6   | Feature commit               | Commit creation              |
+| 7   | Feature branch push          | Remote branch                |
+| 8   | Pull Request                 | PR creation                  |
+| 9   | Reviewer comment             | Code review                  |
+| 10  | Updated README/diff          | Review feedback applied      |
+| 11  | Review-feedback commit       | Corrective commit            |
+| 12  | Updated PR                   | PR updated                   |
+| 13  | Merged PR                    | PR successfully merged       |
+| 14  | Branch deletion              | Feature branch cleanup       |
+| 15  | Main history                 | Feature integrated into main |
+| 16  | `release/v1.0`               | Release branch               |
+| 17  | Release commit               | README release update        |
+| 18  | Feature flag commit          | Feature flag implementation  |
+| 19  | Feature enabled              | Flag = true                  |
+| 20  | Feature disabled             | Flag = false                 |
+| 21  | Final enabled state          | Final configuration          |
+| 22  | Release branch push          | Remote release branch        |
+| 23  | Final Git state              | Complete workflow            |
 
 ---
 
